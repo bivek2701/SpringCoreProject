@@ -22,8 +22,8 @@ public class Test {
 		Teacher t1 = con.getBean("teacher",Teacher.class);
 		Teacher t2 = con.getBean("teacher",Teacher.class);
 		
-		System.out.println(t1.hashCode());
-		System.out.println(t2.hashCode());
+		System.out.println(t1);
+		System.out.println(t2);
 	}
 
 }
