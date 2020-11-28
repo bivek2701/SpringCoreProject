@@ -16,7 +16,7 @@
 		base-package="com.springcore.stereotype" />
 
 
-	<util:list list-class="java.util.Vector" id="temp">
+	<util:list list-class="java.util.ArrayList" id="temp">
 		<value>Lucknow</value>
 		<value>Delhi</value>
 		<value>Kanpur</value>
