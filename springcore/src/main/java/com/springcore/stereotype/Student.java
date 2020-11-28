@@ -6,16 +6,16 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-@Component("ob")
-@Scope("prototype")
+//@Component("ob")
+//@Scope("prototype")
 public class Student {
 	
-	@Value("Durgesh Tiwari")
+	//@Value("Durgesh Tiwari")
 	private String studentName;
-	@Value("Lucknow")	
+	//@Value("Lucknow")	
 	private String city;
 	
-	@Value("#{temp}")
+	//@Value("#{temp}")
 	private List<String> address;
 	
 	public String getStudentName() {
@@ -30,8 +30,6 @@ public class Student {
 	public void setCity(String city) {
 		this.city = city;
 	}
-	
-	
 	
 	public List<String> getAddress() {
 		return address;
